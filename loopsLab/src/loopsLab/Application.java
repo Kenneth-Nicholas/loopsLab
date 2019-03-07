@@ -66,5 +66,49 @@ public class Application {
 			number2++;
 		}
 		
-	}
+		System.out.println();
+		
+		// 7.
+		
+		for(int i = 0; i < 5; i++) {
+			for(int j = 0; j < 5; j++) {
+				if((i == 4) || (j == 0)) {
+					System.out.print("*");
+				} else {
+					System.out.print(" ");
+				}
+			}
+			System.out.println();
+		}
+		
+		System.out.println();
+		
+		// 8.
+		
+		for(int i = 0; i < 5; i++) {
+			for(int j = 0; j < 5; j++) {
+				if((i == 0) || (j == 2)) {
+					System.out.print("*");
+				} else {
+					System.out.print(" ");
+				}
+			}
+			System.out.println();
+		}
+		
+		// 9.
+		
+		System.out.println();
+		
+		for(int i = 0, size = 5; i < size; i++) {	
+			for(int j = 0; j < size; j++) {
+				if((i == j) || ((i + j) == (size - 1))) {
+					System.out.print("*");
+				} else {
+					System.out.print(" ");
+				}
+			}
+			System.out.println();
+		}	
+	}     
 }
